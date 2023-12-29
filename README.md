@@ -25,6 +25,6 @@
 4. Start the server.
 
 
-[CFX Forum]()<br>
+[CFX Forum](https://forum.cfx.re/t/release-free-esx-qbcore-standalone-advanced-vinewood-sign-system/5196951)<br>
 [Video Preview](https://www.youtube.com/watch?v=AoSudeugqcw)<br>
 [Support](https://discord.gg/tHAbhd94vS)
