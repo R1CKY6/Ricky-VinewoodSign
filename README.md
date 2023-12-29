@@ -25,6 +25,6 @@
 4. Start the server.
 
 
-[CFX Forum]()
-[Video Preview](https://www.youtube.com/watch?v=AoSudeugqcw)
+[CFX Forum]()<br>
+[Video Preview](https://www.youtube.com/watch?v=AoSudeugqcw)<br>
 [Support](https://discord.gg/tHAbhd94vS)
