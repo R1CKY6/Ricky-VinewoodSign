@@ -85,5 +85,5 @@ end)
 
 RegisterServerEvent('ricky-vinewood:loadText')
 AddEventHandler('ricky-vinewood:loadText', function()
-    TriggerClientEvent('ricky-vinewood:saveText', -1, GetFileData())
+    TriggerClientEvent('ricky-vinewood:saveText', source, GetFileData())
 end)
