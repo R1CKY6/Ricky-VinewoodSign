@@ -41,7 +41,6 @@ Authorized = function(source)
             end
         end
     elseif FrameworkFound == 'qbcore' then
-        local Player = QBCore.Functions.GetPlayer(source)
         for k, v in pairs(Config.AuthorizedGroups.group) do 
             if QBCore.Functions.HasPermission(source, v) then 
                 return true
