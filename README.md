@@ -2,13 +2,14 @@
 *Advanced Vinewood Sign | FiveM*
 
 # Preview
-![preview_vinewood_out|690x388, 75%](upload://1Nj09JlpoDyC8RJHMcrN9JOOpwf.jpeg)
+![preview_vinewood_out](https://github.com/R1CKY6/Ricky-VinewoodSign/assets/100082886/6bf9bae6-df5d-471e-bbdb-5c64b0b0fe81)
 
 # Only white in color at night | Example
-![image|690x388, 50%](upload://q6RErbeTNf0p9IUnXdN3lU1N1CS.jpeg)
+![image](https://github.com/R1CKY6/Ricky-VinewoodSign/assets/100082886/1f24601b-cf4c-4fbf-b148-d10107ec1eda)
 
 # Every other color at night | Example
-![image|690x388, 50%](upload://pDfgFKGy9NpPLSWDuvzONzywure.jpeg)
+![image](https://github.com/R1CKY6/Ricky-VinewoodSign/assets/100082886/cf7005c5-2584-4312-8b4c-9dcfde3a4f7d)
+
 
 
 
@@ -24,5 +25,6 @@
 4. Start the server.
 
 
-[Video Preview](https://www.youtube.com/watch?v=IbNaZRQycik)
+[CFX Forum]
+[Video Preview](https://www.youtube.com/watch?v=AoSudeugqcw)
 [Support](https://discord.gg/tHAbhd94vS)
