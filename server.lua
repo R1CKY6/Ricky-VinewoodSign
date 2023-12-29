@@ -43,7 +43,7 @@ Authorized = function(source)
     elseif FrameworkFound == 'qbcore' then
         local Player = QBCore.Functions.GetPlayer(source)
         for k, v in pairs(Config.AuthorizedGroups.group) do 
-            if Player.PlayerData.job.name == v then 
+            if QBCore.Functions.HasPermission(source, v) then 
                 return true
             end
         end
