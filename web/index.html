@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <div id="app">
+            <div class="h-full w-full flex items-center justify-center">
+                <div class="flex items-center justify-center absolute">
+                    <img class="opacity-[1]" src="./img/container.png" alt="">
+
+                    <!-- Top Bar -->
+                    <div class="h-[25.7%] top-[0%] w-full absolute flex justify-center flex-col">
+                        <h1 class="text-[3.125vw] ombra relative left-[15.8%]">{{locales.vinewood}}</h1>
+                        <h1 class="text-[2.08333vw] ombra relative left-[15.8%]">{{locales.sign}}</h1>
+
+                        <div class="h-[45%] w-[25.5%] absolute top-[16%] right-[1.2%]">
+                            <transition name="notify">
+                                <div v-if="notifySettings.enable" class="h-full w-[87%] flex items-center justify-center absolute">
+                                    <div class="absolute h-[75%] w-[88%]">
+                                        <h1 class="text-[1.04167vw]">Text Edited!</h1>
+                                    </div>
+                                    <img src="./img/notify.png" alt="">
+                                </div>
+                            </transition>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Bar -->
+                    <div class="w-full h-[73.5%] top-[26.5%] absolute flex items-center justify-center">
+
+                        <!-- Start Text Settings -->
+                        <h1 class="title absolute top-[3%]">{{locales.text}}</h1>
+                        <input :style="'color: '+this.textSettings.color" onkeypress="app.checkText(event)" :placeholder="locales.type_text" v-model="textSettings.text" type="text" class="absolute top-[17%] text-[6.25vw] w-full text-center">
+                        <!-- End Text Settings -->
+
+                        <!-- Start Division Bar -->
+                        <div class="h-[3.3%] w-[26%] absolute top-[44.5%] division"></div>
+                        <!-- End Division Bar -->
+
+
+                        <!-- Start Color Settings -->
+                        <h1 class="title absolute top-[54%]">{{locales.color}}</h1>
+
+                        <div :style="'background-color: '+textSettings.color" @click="viewColorInput()" id="textColor" class="h-[24.5%] w-[11%] absolute bottom-[5.1%] rounded-full"></div>
+                        <input v-model="textSettings.color" style="visibility: hidden;" id="inputColor" type="color" class="relative bottom-[24%] border">
+                        <!-- End Color Settings -->
+
+                        <!-- Save Button -->
+                        <div @click="saveText()" class="absolute rounded-full h-[20%] w-[9%] bottom-[5%] right-[4.3%] cursor-pointer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+        <script src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js'></script>
+        <script src="./js/script.js"></script>
+        <script src='https://cdn.tailwindcss.com'></script>
+    </body>
+</html>
