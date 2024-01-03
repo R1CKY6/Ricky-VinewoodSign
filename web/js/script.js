@@ -51,7 +51,7 @@ const app = new Vue({
                 return false
             }
             event.key = event.key.toUpperCase()
-            var allowedWorld = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "M", "L", "N", "O", "P", "Q", "R", "S", "T", "V", "Z", "X", "Y", "W", "U", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" , "k", "m", "l", "n", "o", "p", "q", "r", "s", "t", "v", "z", "x", "y", "w", "u"]
+            var allowedWorld = [" ", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "M", "L", "N", "O", "P", "Q", "R", "S", "T", "V", "Z", "X", "Y", "W", "U", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j" , "k", "m", "l", "n", "o", "p", "q", "r", "s", "t", "v", "z", "x", "y", "w", "u"]
             if(!allowedWorld.includes(event.key)) {
                 event.preventDefault()
                 return false
